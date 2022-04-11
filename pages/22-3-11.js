@@ -42,6 +42,6 @@ let data = {
     ],
     nav: {
         prev: '<a href="?p=22-3-8">March 8th, 2022</a>',
-        next: 'Soon'
+        next: '<a href="?p=22-4-11">April 11th, 2022</a>'
     }
 };
