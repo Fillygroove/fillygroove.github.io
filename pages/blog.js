@@ -13,9 +13,17 @@ let data = {
         `<h1>2022</h1>`,
         () => {
 			addSection({
+                title: 'September',
+                main: [
+                    `<a href="?p=22-9-5">September 5th, 2022</a> <span class="new">(New!)</span>`,
+                ]
+			});
+		},
+        () => {
+			addSection({
                 title: 'April',
                 main: [
-                    `<a href="?p=22-4-11">April 11th, 2022</a> <span class="new">(New!)</span>`,
+                    `<a href="?p=22-4-11">April 11th, 2022</a>`,
                 ]
 			});
 		},
