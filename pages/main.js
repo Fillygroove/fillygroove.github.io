@@ -14,7 +14,7 @@ let data = {
 			addSection({
                 title: 'Ongoing Projects',
                 main: [
-                    `<a href="./metaventures">Metaventures</a> - A comic series made by Text Wall, Gramiatar, Fristo, SnapKrakPop, and myself.`,
+                    `<a href="./metaventures">Metaventures</a> - A comic series made by Text Wall, Gramiatar, Fristo, and myself.`,
                     `<a href="./tetris">Tetris</a> - A really buggy tetris clone.`,
                     `<a href="./upstairs">The Upstairs</a> - A collection of inside jokes created by myself and Adrian Alemany.`,
                     `<a href="./purple">Pokemon Purple</a> - A ~9 volume comic made back between 4th grade and 7th grade.`
