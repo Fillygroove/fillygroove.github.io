@@ -184,3 +184,21 @@ ul, ol {
 .new {
     color: #F99;
 }
+
+.luigi {
+    background: #248D24 !important;
+}
+
+.luigi:hover {
+    background: #1a661a !important;
+    transition: 0.2s;
+}
+
+.kobah {
+    background: #cb464d !important;
+}
+
+.kobah:hover {
+    background: #7c2b2f !important;
+    transition: 0.2s;
+}

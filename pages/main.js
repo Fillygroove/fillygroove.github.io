@@ -5,6 +5,14 @@ let data = {
     }, {
         name: 'Soundcloud',
         link: 'https://soundcloud.com/namenco'
+    }, {
+        name: 'Luigi',
+        link: './?p=luigi',
+        divStyle: 'luigi'
+    }, {
+        name: 'Kobaïan Dissertation',
+        link: 'https://docs.google.com/spreadsheets/d/1NG-wqNEz6sZD86HmirhmNjxc7gXbUYU6Im4wrmFy58w/edit?usp=sharing',
+        divStyle: 'kobah'
     }],
     name: `Recent post: <a href="./?p=22-9-5">5th of September, 2022</a>`,
     main: [

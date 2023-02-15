@@ -41,6 +41,10 @@ if (data.topbar != undefined) {
         topbarA.href = data.topbar[i].link;
         topbarA.innerHTML = data.topbar[i].name;
 
+        if (data.topbar[i].divStyle != undefined) {
+            topbarDiv.className = data.topbar[i].divStyle;
+        }
+
         topbarDiv.append(topbarA);
         topbar.append(topbarDiv);
     }
