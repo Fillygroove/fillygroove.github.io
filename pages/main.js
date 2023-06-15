@@ -5,27 +5,42 @@ let data = {
     }, {
         name: 'Soundcloud',
         link: 'https://soundcloud.com/namenco'
-    }, {
-        name: 'Luigi',
-        link: './?p=luigi',
-        divStyle: 'luigi'
-    }, {
-        name: 'Kobaïan Dissertation',
-        link: 'https://docs.google.com/spreadsheets/d/1NG-wqNEz6sZD86HmirhmNjxc7gXbUYU6Im4wrmFy58w/edit?usp=sharing',
-        divStyle: 'kobah'
     }],
     name: `Recent post: <a href="./?p=22-9-5">5th of September, 2022</a>`,
     main: [
-        `I rushed this page out so that I could quickly link everything together, it won't look this bad for long I swear!!`,
-        `Hello, I'm <span title="Fillygroove online, Sinetooth musically"><u>Clarise</u></span>! I'm a musician and a VERY ameture coder. I made this website as a sort of "hub" for my projects (even if it does look like crap). I'll try and update it regularly and make as many improvements as I can.`,
+        `Hello, I'm <u>Fillygroove</u>! I'm a musician and a coder. I made this website as a sort of "hub" for my projects. I'll try and update it regularly and make as many improvements as I can.`,
+        () => {
+			addSection({
+                title: 'Fun facts about me!',
+                main: [
+                    `My name is Isabella Clarise Lyra Nicole Smith (yeesh, i know.)`,
+                    `I was born on June 11th 2004 (that's more than 10 years ago!)`,
+                    `My online name, Fillygroove, comes from a song made by Rabiesx86. <a href="https://www.youtube.com/watch?v=69a4apq6oeA">You can find it here!</a>`,
+                    `I am an avid fan of origami, puzzles, Magma (the french band), Diep.io, and more!`
+                ]
+			});
+		},
         () => {
 			addSection({
                 title: 'Ongoing Projects',
                 main: [
+                    `<a href="http://woomy-site.glitch.me/">Woomy Arras</a> - A diep clone with over 2000 tanks that is constantly getting updated.`,
+                    `<a href="https://fourequalsfive.bandcamp.com/">Sinetooth</a> - My musical exploits compiled into albums, made with love.`,
+                    `<a href="./?p=diep-dissection">Diep Dissection</a> - A document about Diep's tank design and it's irregularities.`,
+                    `<a href="./purple">Pokemon Purple</a> - A ~9 volume comic made back between 4th grade and 7th grade.`,
+                    `<a href="https://docs.google.com/spreadsheets/d/1NG-wqNEz6sZD86HmirhmNjxc7gXbUYU6Im4wrmFy58w/edit?usp=sharing">Kobaïan Dissertation</a> - Google document about my favorite band, Magma.`,
+                    `<a href="./?p=luigi">Luigi Thread</a> - An archive of discord messages that follows the story of Luigi (from Mario Bros.) and the weird things he does.`
+                ]
+			});
+		},
+        () => {
+			addSection({
+                title: 'Paused Projects',
+                main: [
                     `<a href="./metaventures">Metaventures</a> - A comic series made by Text Wall, Gramiatar, Fristo, and myself.`,
                     `<a href="./tetris">Tetris</a> - A really buggy tetris clone.`,
                     `<a href="./upstairs">The Upstairs</a> - A collection of inside jokes created by myself and Adrian Alemany.`,
-                    `<a href="./purple">Pokemon Purple</a> - A ~9 volume comic made back between 4th grade and 7th grade.`
+                    `<a href="./cardiacs">Cardiacs</a> - A scrapped lyrics portal for the band Cardiacs.`,
                 ]
 			});
 		},
@@ -42,13 +57,6 @@ let data = {
                 ]
 			});
 		},
-        () => {
-			addSection({
-                title: 'Scrapped Projects',
-                main: [
-                    `<a href="./cardiacs">Cardiacs</a> - A scrapped lyrics portal for the band Cardiacs.`
-                ]
-			});
-		}
+        `Thanks for reading, luv ya! <3`,
     ]
 };
