@@ -24,7 +24,6 @@ let data = {
 			addSection({
                 title: 'Ongoing Projects',
                 main: [
-                    `<a href="http://woomy-site.glitch.me/">Woomy Arras</a> - A diep clone with over 2000 tanks that is constantly getting updated.`,
                     `<a href="https://fourequalsfive.bandcamp.com/">Sinetooth</a> - My musical exploits compiled into albums, made with love.`,
                     `<a href="./?p=diep-dissection">Diep Dissection</a> - A document about Diep's tank design and it's irregularities.`,
                     `<a href="./purple">Pokemon Purple</a> - A ~9 volume comic made back between 4th grade and 7th grade.`,
